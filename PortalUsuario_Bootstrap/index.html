@@ -16,7 +16,7 @@
 <body>
     <header class="text-center fixed-top w3-theme">
         <div>
-            <h2>SISTEMA DE SERVICIOS INFORMATICOS</h2>
+            <h3>SISTEMA DE SERVICIOS INFORMATICOS</h3>
             <h4>PORTAL DEL USUARIO</h4>            
         </div>        
     </header>
@@ -26,13 +26,25 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header w3-theme-11">
-                        <h5 class="modal-title">Login</h5>
+                        <h6 class="modal-title">Login</h6>
                     </div>
+
                     <div class="modal-body w3-theme-15">
-                        <p>This is a vertically centered modal.</p>
+                        <form >                            
+                            <div class="form-group">
+                              <label for="username">Username:</label>
+                              <input type="text" class="form-control " id="uname" placeholder="Enter username" name="uname">                              
+                            </div>
+
+                            <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                            </div>                            
+                          </form>
                     </div>
+
                     <div class="modal-footer w3-theme-11">
-                        <button type="button" class="btn btn-primary w3-theme-15">Save changes</button>
+                        <button type="button" class="btn btn-primary w3-theme-15">Submit</button>
                     </div>
                 </div>
             </div>        
