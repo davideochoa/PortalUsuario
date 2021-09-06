@@ -9,8 +9,9 @@
     <link rel="shortcut icon" type="image/jpg" href="logo_salud_icono.jpg"/>
     <link rel="stylesheet" href="./CSS/colores.css">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-    <script src="./JS/bootstrap.min.js"></script> 
+
     
+    <script src="./JS/PortalUsuario.js"></script>  
 </head>
     
 <body>
@@ -23,7 +24,7 @@
     
     <main>
         <div class="modal d-block " >
-            <div class="modal-dialog modal-dialog-centered">
+            <div id="modalLogin" class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content">
                     <div class="modal-header w3-theme-11">
                         <h6 class="modal-title">Login</h6>
@@ -31,7 +32,7 @@
 
                     <div class="modal-body w3-theme-15">
                         <form >                            
-                            <div class="form-group">
+                            <div class="form-group ">
                               <label for="username">Username:</label>
                               <input type="text" class="form-control " id="uname" placeholder="Enter username" name="uname">                              
                             </div>
@@ -44,7 +45,7 @@
                     </div>
 
                     <div class="modal-footer w3-theme-11">
-                        <button type="button" class="btn btn-primary w3-theme-15">Submit</button>
+                        <button type="button"  class="btn w3-theme-15 btn-sm" onclick="oyenteBotonLogin()">Submit</button>
                     </div>
                 </div>
             </div>        
