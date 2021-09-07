@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/jpg" href="logo_salud_icono.jpg"/>
     <link rel="stylesheet" href="./CSS/colores.css">
+    <link rel="stylesheet" href="./CSS/configuracion.css">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
 
     
@@ -15,48 +16,23 @@
 </head>
     
 <body>
-    <header class="text-center fixed-top w3-theme">
-        <div>
+    <div id="header" class ="d-flex ">
+        <div class="container-fluid text-center fixed-top w3-theme">
             <h3>SISTEMA DE SERVICIOS INFORMATICOS</h3>
-            <h4>PORTAL DEL USUARIO</h4>            
+            <h4>PORTAL DEL USUARIO</h4>  
         </div>        
-    </header>
-    
-    <main>
-        <div class="modal d-block " >
-            <div id="modalLogin" class="modal-dialog modal-dialog-centered modal-sm">
-                <div class="modal-content">
-                    <div class="modal-header w3-theme-11">
-                        <h6 class="modal-title">Login</h6>
-                    </div>
+    </div>
 
-                    <div class="modal-body w3-theme-15">
-                        <form >                            
-                            <div class="form-group ">
-                              <label for="username">Username:</label>
-                              <input type="text" class="form-control " id="uname" placeholder="Enter username" name="uname">                              
-                            </div>
-
-                            <div class="form-group">
-                              <label for="pwd">Password:</label>
-                              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-                            </div>                            
-                          </form>
-                    </div>
-
-                    <div class="modal-footer w3-theme-11">
-                        <button type="button"  class="btn w3-theme-15 btn-sm" onclick="oyenteBotonLogin()">Submit</button>
-                    </div>
-                </div>
-            </div>        
-        </div>
-    </main>
     
-    <footer class="footer text-center fixed-bottom w3-theme">
-        <h5>INSTITUTO DE SERVICIOS DESCENTRALIZADOS DE SALUD PUBLICA DEL ESTADO DE CAMPECHE</h5>
-        <h6>SECRETARIA DE SALUD</h6>    
-    </footer>
+    <div class="d-flex " style="height:150px">
+        <div class="p-2 border bg-warning align-self-start">Flex item 2</div>
+        <div class="container-fluid ">Flex item 3</div>
+      </div>
     
+
+    <div id="footer" class ="d-flex ">
+        <div class="container-fluid text-center fixed-bottom w3-theme">
+            <h5>INSTITUTO DE SERVICIOS DESCENTRALIZADOS DE SALUD PUBLICA DEL ESTADO DE CAMPECHE -- SECRETARIA DE SALUD</h5>
+        </div>        
+    </div>
 </body>
-    
-</html>
