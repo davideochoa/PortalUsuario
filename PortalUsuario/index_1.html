@@ -19,38 +19,52 @@
         <h6>PORTAL DEL USUARIO</h6>
     </header>
     
-    
-    
     <main >
-        <div id="modalLogin" class="w3-modal w3 w3-display-middle">        
-            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:300px">
-                <header class="w3-container w3-theme-d4">                     
-                    <h4>LOGIN</h4>
-                </header>
-
-                <form class="w3-container" action="/action_page.php">
-                  <div class="w3-section">
-
-                    <label><b>Username</b></label>
-                    <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
-
-                    <label><b>Password</b></label>
-                    <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
-
-                  </div>
-                </form>
-                <footer class="w3-container w3-theme-d4">
-                    <button onclick="oyenteBotonLogin()" class="w3-button w3-green w3-section w3-right" type="submit">Login</button>
-                </footer>
-            </div>        
-        </div>
-        
+         
     </main>
     
     
-    <footer class="w3-container w3-theme-d4 w3-display-bottommiddle">
+    <footer class="w3-container w3-theme-d4 w3-bottom w3-center">
         <h6>INSTITUTO DE SERVICIOS DESCENTRALIZADOS DE SALUD PUBLICA DEL ESTADO DE CAMPECHE</h6>
     </footer>
+
+    <div id="modalLogin2" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container w3-theme-d4">
+                <h6>LOGIN</h6>
+            </div>
+            <div class="w3-container w3-theme-l5">
+                <h6>CUERPO</h6>
+            </div>
+            <div class="w3-container w3-theme-d4">
+                <h6>FOOTER</h6>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="modalLogin" class="w3-modal w3-display-middle">        
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:300px">
+            <header class="w3-container w3-theme-d4">                     
+                <h4>LOGIN</h4>
+            </header>
+
+            <form class="w3-container" action="/action_page.php">
+                <div class="w3-section">
+
+                <label><b>Username</b></label>
+                <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+
+                <label><b>Password</b></label>
+                <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+
+                </div>
+            </form>
+            <footer class="w3-container w3-theme-d4">
+                <button onclick="oyenteBotonLogin()" class="w3-button w3-green w3-section w3-right" type="submit">Login</button>
+            </footer>
+        </div>        
+    </div>       
 </body>
 
 </html>

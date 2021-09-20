@@ -1,5 +1,5 @@
 function oyenteCargarPagina() {
-    document.getElementById('modalLogin').style.display='block'
+    document.getElementById('modalLogin2').style.display='block'
 }
 
 function oyenteBotonLogin() {
